@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Astral Circle Academy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="home">
+  <h1>The Astral Circle Academy</h1>
+  <p>An academy beyond time, devoted to the study of arcane knowledge, celestial systems, forgotten languages, and the inner architecture of perception.</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#circles">The Circles</a>
+    <a href="#custodians">Custodians</a>
+    <a href="#initiation">Initiation</a>
+  </nav>
+</header>
+
+<section id="about">
+  <div class="panel">
+    <h2>About the Academy</h2>
+    <p>The Astral Circle Academy exists between disciplines, traditions, and centuries. It is not a place of belief, but of study—where symbolic systems and ancient frameworks are examined with care, context, and respect.</p>
+    <p>Knowledge preserved here is approached as cultural memory, psychological structure, linguistic artifact, and reflective tool. We do not promise revelation. We offer understanding.</p>
+  </div>
+</section>
+
+<section id="circles">
+  <div class="panel">
+    <h2>The Circles of Study</h2>
+    <div class="circles">
+      <div class="circle">
+        <h3>Arcane Circle</h3>
+        <p>Spellcraft, symbolism, sigils, and ritual as intentional practice.</p>
+      </div>
+      <div class="circle">
+        <h3>Celestial Circle</h3>
+        <p>Astrology, planetary archetypes, charts, and cosmic narratives.</p>
+      </div>
+      <div class="circle">
+        <h3>Inner Circle</h3>
+        <p>Meditation, astral visualization, dreamwork, and perception.</p>
+      </div>
+      <div class="circle">
+        <h3>Divinatory Circle</h3>
+        <p>Palmistry and pattern interpretation through embodied study.</p>
+      </div>
+      <div class="circle">
+        <h3>Linguistic Circle</h3>
+        <p>Scottish & Irish Gaelic, and mythic Elvish languages.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="custodians">
+  <div class="panel">
+    <h2>The Custodians</h2>
+    <div class="custodians">
+      <div class="custodian">
+        <h3>Aurelian Voss</h3>
+        <p>Celestial studies and planetary archetypes.</p>
+      </div>
+      <div class="custodian">
+        <h3>Rowan Ashveil</h3>
+        <p>Ritual symbolism and ethical spellcraft.</p>
+      </div>
+      <div class="custodian">
+        <h3>Lórien the Archivist</h3>
+        <p>Elvish languages and mythic linguistics.</p>
+      </div>
+      <div class="custodian">
+        <h3>Maelduin of the Hollow Oak</h3>
+        <p>Irish & Scottish Gaelic language preservation.</p>
+      </div>
+      <div class="custodian">
+        <h3>Kael the Veiled</h3>
+        <p>Inner realms, meditation, and astral studies.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="initiation">
+  <div class="panel">
+    <h2>Initiation</h2>
+    <p>There are no grades, no competition, and no hierarchy of belief. Initiates progress through Attunements—markers of study, reflection, and engagement.</p>
+    <p>All teachings are offered for educational, cultural, symbolic, and introspective exploration.</p>
+    <p><em>The circle is open to all who enter with curiosity and care.</em></p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; The Astral Circle Academy</p>
+  <p><em>An academy beyond time.</em></p>
+</footer>
+<!-- Custodian Chat -->
+<section id="custodian-chat">
+  <div class="panel">
+    <h2>Speak with a Custodian</h2>
+
+    <select id="custodianSelect">
+      <option value="aurelian">Aurelian Voss — Astrology</option>
+      <option value="rowan">Rowan Ashveil — Spellcraft</option>
+      <option value="lorien">Lórien the Archivist — Elvish</option>
+      <option value="maelduin">Maelduin — Gaelic</option>
+      <option value="kael">Kael the Veiled — Astral Studies</option>
+    </select>
+
+    <div id="chatBox"></div>
+
+    <input
+      type="text"
+      id="userInput"
+      placeholder="Ask your question..."
+    />
+
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
